@@ -1,8 +1,11 @@
 #include<stdio.h>
-#include<float.h>
+
+extern int c;
 
 int main()
 {
-	printf("float size: %lu \n", sizeof(float));
+
+	printf("%d", c);
+
 	return 0;
-}
+}	
