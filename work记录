@@ -1,0 +1,12 @@
+gemini key:AIzaSyCO4yv5y-RqsZRIzDiSDEcgqttoVtlEU_A
+
+//拉AOSP源码
+/home/luna/bin/repo init -u https://android.googlesource.com/platform/manifest -b ub-automotive-master-20231102 --repo-url /home/luna/workspace/clone.bundle
+
+github key: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
+figma token: figd_dctK7CKpmsCopzZ_UUxAaoQ1LwzPz96qvDgLVOpY
+
+android-14.0.0_r33
+
+
+/home/luna/bin/repo init -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r33 --repo-url /home/luna/workspace/clone.bundle
