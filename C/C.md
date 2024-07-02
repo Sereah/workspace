@@ -373,3 +373,23 @@ if(!prt_a) 表示空指针，反之表示非空。
 
 ###### 递增遍历数组
 
+
+
+#### Makefile
+
+在命令前要有制表符，空格不行。
+
+> make -f AddMakeFile执行makefile文件
+
+```makefile
+#AddMakeFile
+add:main.o add.o
+	gcc -o add main.o add.o
+
+main.o:main.c
+	gcc -c main.c
+
+add.o:add.c
+	gcc -c add.c
+```
+
